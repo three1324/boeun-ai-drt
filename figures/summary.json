@@ -1,0 +1,102 @@
+{
+  "clusters_total": 248,
+  "stops_total": 702,
+  "rural_clusters": 238,
+  "rural_stops": 650,
+  "d_hub_mean": 11.6,
+  "d_hub_max": 24.7,
+  "share_over10km": 62.2,
+  "forecast_mae": {
+    "historical_mean": 1.415,
+    "gbr": 1.269
+  },
+  "scenarios": {
+    "A": {
+      "wait_mean": 100.5,
+      "wait_p90": 183.2,
+      "within30": 15.8,
+      "unserved_pct": 8.8,
+      "vkm_day": 2188.3,
+      "vhours_day": 104.0,
+      "pax_day": 322.0,
+      "km_per_pax": 6.8
+    },
+    "B": {
+      "wait_mean": 141.5,
+      "wait_p90": 258.6,
+      "within30": 7.3,
+      "unserved_pct": 0.0,
+      "vkm_day": 4082.8,
+      "vhours_day": 120.0,
+      "pax_day": 322.0,
+      "km_per_pax": 12.68
+    },
+    "C": {
+      "wait_mean": 179.7,
+      "wait_p90": 342.2,
+      "within30": 2.6,
+      "unserved_pct": 0.0,
+      "vkm_day": 4082.8,
+      "vhours_day": 81.8,
+      "pax_day": 322.0,
+      "km_per_pax": 12.68
+    }
+  },
+  "fleet_sensitivity": [
+    {
+      "wait_mean": 122.5,
+      "wait_p90": 224.2,
+      "within30": 9.8,
+      "unserved_pct": 0.0,
+      "vkm_day": 3875.9,
+      "vhours_day": 120.0,
+      "pax_day": 293.4,
+      "km_per_pax": 13.21,
+      "K": 8
+    },
+    {
+      "wait_mean": 30.6,
+      "wait_p90": 55.8,
+      "within30": 53.7,
+      "unserved_pct": 0.0,
+      "vkm_day": 3875.9,
+      "vhours_day": 180.0,
+      "pax_day": 293.4,
+      "km_per_pax": 13.21,
+      "K": 12
+    },
+    {
+      "wait_mean": 26.0,
+      "wait_p90": 49.5,
+      "within30": 65.4,
+      "unserved_pct": 0.0,
+      "vkm_day": 3875.9,
+      "vhours_day": 240.0,
+      "pax_day": 293.4,
+      "km_per_pax": 13.21,
+      "K": 16
+    },
+    {
+      "wait_mean": 25.9,
+      "wait_p90": 49.3,
+      "within30": 65.6,
+      "unserved_pct": 0.0,
+      "vkm_day": 3875.9,
+      "vhours_day": 300.0,
+      "pax_day": 293.4,
+      "km_per_pax": 13.21,
+      "K": 20
+    },
+    {
+      "wait_mean": 25.9,
+      "wait_p90": 49.3,
+      "within30": 65.6,
+      "unserved_pct": 0.0,
+      "vkm_day": 3875.9,
+      "vhours_day": 360.0,
+      "pax_day": 293.4,
+      "km_per_pax": 13.21,
+      "K": 24
+    }
+  ]
+}
